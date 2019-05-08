@@ -20,3 +20,5 @@ wget https://raw.githubusercontent.com/Neo-Oli/termux-ubuntu/master/ubuntu.sh
 # Mengubah dan menjalankan
 chmod +x ./ubuntu.sh
 ./ubuntu.sh
+
+# Memindahkan resolv.conf
