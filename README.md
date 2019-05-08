@@ -7,4 +7,4 @@ Satu perintah untuk semua
 	$ chmod +x ./install.sh
 	$ ./install.sh
 
-Tunggu proses unduhan sampai selesai, dan akan otomatis menjalankan perintah untuk masuk ke termux-ubuntu. 
+Tunggu proses unduhan sampai selesai, dan akan otomatis menjalankan perintah untuk masuk ke termux-ubuntu.
