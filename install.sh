@@ -22,3 +22,12 @@ chmod +x ./ubuntu.sh
 ./ubuntu.sh
 
 # Memindahkan resolv.conf
+wget https://raw.githubusercontent.com/apolbox/termux-ubuntu/master/resolv.conf
+mv resolv.conf $JAILS/ubuntu-fs/etc/
+
+# Start ubuntu
+./start-ubuntu.sh
+
+# Fix error groups: cannot find name group id
+touch ~/.hushlogin
+
